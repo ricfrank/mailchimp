@@ -1,21 +1,21 @@
 {
-    "name": "rezzza/mailchimp",
+    "name": "ricfrank/mailchimp",
     "type": "mailchimp-api",
-    "description": "MailChimp PHP API Wrapper 1.3.*",
+    "description": "MailChimp PHP API Wrapper 1.3.* from https://packagist.org/packages/rezzza/mailchimp",
     "keywords": ["Mailchimp", "newsletter", "api"],
-    "homepage": "http://apidocs.mailchimp.com/api/downloads/#php",
+    "homepage": "http://apidocs.mailchimp.com/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sébastien HOUZÉ",
-            "email": "s@verylastroom.com"
+            "name": "Riccardo Franconi",
+            "email": "riccardo.franconi@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.0.0"
+        "php": ">=5.3.0"
     },
-    "target-dir": "Rezzza/MailChimp",
+  
     "autoload": {
-        "psr-0": { "Rezzza\\MailChimp\\": "" }
+        "psr-0": { "Ricfrank\\MailChimp": "src/" }
     }
 }
